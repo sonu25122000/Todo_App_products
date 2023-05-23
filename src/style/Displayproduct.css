@@ -1,0 +1,28 @@
+table{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 3%;
+}
+table td,table th{
+    border-collapse: collapse;
+    padding: 8px;
+}
+table th{
+    font-weight: bold;
+    background: rgb(42, 161, 3);
+    color: aliceblue;
+}
+tr:nth-child(even){
+    background-color: rgb(18, 179, 147);
+}
+tr:nth-child(odd){
+    background-color: rgb(193, 163, 12);
+}
+.heading{
+    text-align: center;
+}
+.filterForm{
+    width: 30%;
+    margin: auto;
+}
